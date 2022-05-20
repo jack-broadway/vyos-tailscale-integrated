@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Please check out [vyos-modular](https://github.com/jack-broadway/vyos-modular) and [vyos-module-tailscale](https://github.com/jack-broadway/vyos-module-tailscale)
+
 # vyos-tailscale-integrated
 
 Builds on the work from [DMarby/vyos-tailscale](https://github.com/DMarby/vyos-tailscale) and integrates tailscale as a configurable service in vyos
