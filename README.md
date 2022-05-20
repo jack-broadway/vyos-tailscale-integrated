@@ -18,8 +18,8 @@ The resulting iso will be available under `vendor/vyos-build/build/vyos-1.3-equu
 
 ## Roadmap
 
-- Add support for selecting a vyos-1x commit hash to build from
-- Add support for building the `current` (1.4) branch of vyos
-- Add support for configuring the tailscale listening port from the vyos cli
-- Add the tailscale interface to vyos to make autocomplete easier for things like firewall configuration, as well as having it show up under `show interfaces`
-- Properly handle the case where we are bringing up tailscale for the first time, instead of just catching TimeoutExpired
+- [ ] Add support for selecting a vyos-1x commit hash to build from
+- [ ] Add support for building the `current` (1.4) branch of vyos
+- [ ] Add support for configuring the tailscale listening port from the vyos cli
+- [X] Add the tailscale interface to vyos to make autocomplete easier for things like firewall configuration, as well as having it show up under `show interfaces`
+- [ ] Properly handle the case where we are bringing up tailscale for the first time, instead of just catching TimeoutExpired
